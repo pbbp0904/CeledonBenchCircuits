@@ -4,6 +4,10 @@ A benchmark suite for evaluating the visual understanding capabilities of large 
 
 This benchmark generates images containing randomly placed colored shapes and numbers, connected by curvy arrows. Models are tasked with analyzing these images and identifying the connections and properties of the elements based on the provided instructions.
 
+## Example Image
+
+![Example circuit diagram from the benchmark](datasets/n6/images/n6_015_identify_all.png)
+
 ## Project Structure
 
 ```
