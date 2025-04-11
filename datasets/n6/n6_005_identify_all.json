@@ -1,0 +1,198 @@
+{
+    "test_case_id": "n6_005_identify_all",
+    "n_value": 6,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n6/images/n6_005_identify_all.png",
+    "expected_outcome": {
+        "n_value": 6,
+        "image_filename": "n6_005_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_c88ac84b-be49-49a2-b14b-d3dc321aa3cb",
+                "type": "circle",
+                "color": "red",
+                "size_parameter": 75,
+                "center_position": [
+                    836,
+                    503
+                ],
+                "bounding_box": [
+                    799,
+                    466,
+                    873,
+                    540
+                ]
+            },
+            {
+                "id": "shape_b9f567e1-4569-4435-a7ca-4255fd2db7ce",
+                "type": "star",
+                "color": "yellow",
+                "size_parameter": 44,
+                "center_position": [
+                    304,
+                    358
+                ],
+                "bounding_box": [
+                    282,
+                    336,
+                    326,
+                    380
+                ]
+            },
+            {
+                "id": "shape_8dbc6cff-c2f9-4536-bc6a-677fbd8da426",
+                "type": "pentagon",
+                "color": "blue",
+                "size_parameter": 77,
+                "center_position": [
+                    896,
+                    369
+                ],
+                "bounding_box": [
+                    858,
+                    331,
+                    934,
+                    407
+                ]
+            },
+            {
+                "id": "shape_d1565c1d-6fe1-4f17-870a-92433a2cdce5",
+                "type": "rectangle",
+                "color": "orange",
+                "size_parameter": 53,
+                "center_position": [
+                    160,
+                    390
+                ],
+                "bounding_box": [
+                    126,
+                    364,
+                    194,
+                    416
+                ]
+            },
+            {
+                "id": "shape_ed8a1da0-1681-4748-86c7-e130fdd9de00",
+                "type": "triangle",
+                "color": "purple",
+                "size_parameter": 46,
+                "center_position": [
+                    357,
+                    488
+                ],
+                "bounding_box": [
+                    334,
+                    475,
+                    380,
+                    494
+                ]
+            },
+            {
+                "id": "shape_b6c09335-f2f2-402c-9765-38a5316c288c",
+                "type": "square",
+                "color": "green",
+                "size_parameter": 48,
+                "center_position": [
+                    95,
+                    862
+                ],
+                "bounding_box": [
+                    71,
+                    838,
+                    119,
+                    886
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    426,
+                    403
+                ],
+                "bounding_box": [
+                    417.5,
+                    392.0,
+                    434.5,
+                    414.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    686,
+                    345
+                ],
+                "bounding_box": [
+                    677.5,
+                    334.0,
+                    694.5,
+                    356.0
+                ]
+            },
+            {
+                "value": 3,
+                "center_position": [
+                    516,
+                    147
+                ],
+                "bounding_box": [
+                    507.5,
+                    136.0,
+                    524.5,
+                    158.0
+                ]
+            },
+            {
+                "value": 4,
+                "center_position": [
+                    179,
+                    584
+                ],
+                "bounding_box": [
+                    170.5,
+                    573.0,
+                    187.5,
+                    595.0
+                ]
+            },
+            {
+                "value": 5,
+                "center_position": [
+                    414,
+                    191
+                ],
+                "bounding_box": [
+                    405.5,
+                    180.0,
+                    422.5,
+                    202.0
+                ]
+            },
+            {
+                "value": 6,
+                "center_position": [
+                    515,
+                    75
+                ],
+                "bounding_box": [
+                    506.5,
+                    64.0,
+                    523.5,
+                    86.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_c88ac84b-be49-49a2-b14b-d3dc321aa3cb",
+            "2": "shape_b9f567e1-4569-4435-a7ca-4255fd2db7ce",
+            "3": "shape_8dbc6cff-c2f9-4536-bc6a-677fbd8da426",
+            "4": "shape_d1565c1d-6fe1-4f17-870a-92433a2cdce5",
+            "5": "shape_ed8a1da0-1681-4748-86c7-e130fdd9de00",
+            "6": "shape_b6c09335-f2f2-402c-9765-38a5316c288c"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}

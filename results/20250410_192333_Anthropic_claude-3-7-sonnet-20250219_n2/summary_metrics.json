@@ -1,0 +1,15 @@
+{
+    "total_cases": 20,
+    "overall_pass_rate_percent": 55.0,
+    "passed_count": 11,
+    "failed_count": 9,
+    "failure_breakdown": {
+        "llm_execution_error": 0,
+        "output_parsing_error": 0,
+        "comparison_error": 9,
+        "evaluation_setup_error": 0
+    },
+    "pass_rate_percent_by_n": {
+        "n_2": 55.00000000000001
+    }
+}

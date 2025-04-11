@@ -1,0 +1,168 @@
+{
+    "test_case_id": "n5_011_identify_all",
+    "n_value": 5,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n5/images/n5_011_identify_all.png",
+    "expected_outcome": {
+        "n_value": 5,
+        "image_filename": "n5_011_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_ea86a703-8052-45df-8241-ea3bb8e06e5f",
+                "type": "rectangle",
+                "color": "green",
+                "size_parameter": 63,
+                "center_position": [
+                    435,
+                    147
+                ],
+                "bounding_box": [
+                    394,
+                    116,
+                    476,
+                    178
+                ]
+            },
+            {
+                "id": "shape_e921fabc-1a17-48fb-8a01-f745bcc3bd4a",
+                "type": "circle",
+                "color": "blue",
+                "size_parameter": 78,
+                "center_position": [
+                    807,
+                    823
+                ],
+                "bounding_box": [
+                    768,
+                    784,
+                    846,
+                    862
+                ]
+            },
+            {
+                "id": "shape_88c2de1b-5848-48be-b5f8-e1f3e597c44f",
+                "type": "triangle",
+                "color": "purple",
+                "size_parameter": 41,
+                "center_position": [
+                    763,
+                    114
+                ],
+                "bounding_box": [
+                    743,
+                    103,
+                    783,
+                    119
+                ]
+            },
+            {
+                "id": "shape_4c196209-f7f9-4646-a60e-51e0cadfbafe",
+                "type": "pentagon",
+                "color": "yellow",
+                "size_parameter": 42,
+                "center_position": [
+                    195,
+                    757
+                ],
+                "bounding_box": [
+                    174,
+                    736,
+                    216,
+                    778
+                ]
+            },
+            {
+                "id": "shape_4e262977-b9c4-4e9a-9b79-6b99f74caa94",
+                "type": "square",
+                "color": "red",
+                "size_parameter": 71,
+                "center_position": [
+                    472,
+                    646
+                ],
+                "bounding_box": [
+                    437,
+                    611,
+                    507,
+                    681
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    605,
+                    904
+                ],
+                "bounding_box": [
+                    596.5,
+                    893.0,
+                    613.5,
+                    915.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    683,
+                    940
+                ],
+                "bounding_box": [
+                    674.5,
+                    929.0,
+                    691.5,
+                    951.0
+                ]
+            },
+            {
+                "value": 3,
+                "center_position": [
+                    406,
+                    259
+                ],
+                "bounding_box": [
+                    397.5,
+                    248.0,
+                    414.5,
+                    270.0
+                ]
+            },
+            {
+                "value": 4,
+                "center_position": [
+                    82,
+                    446
+                ],
+                "bounding_box": [
+                    73.5,
+                    435.0,
+                    90.5,
+                    457.0
+                ]
+            },
+            {
+                "value": 5,
+                "center_position": [
+                    917,
+                    277
+                ],
+                "bounding_box": [
+                    908.5,
+                    266.0,
+                    925.5,
+                    288.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_ea86a703-8052-45df-8241-ea3bb8e06e5f",
+            "2": "shape_e921fabc-1a17-48fb-8a01-f745bcc3bd4a",
+            "3": "shape_88c2de1b-5848-48be-b5f8-e1f3e597c44f",
+            "4": "shape_4c196209-f7f9-4646-a60e-51e0cadfbafe",
+            "5": "shape_4e262977-b9c4-4e9a-9b79-6b99f74caa94"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}

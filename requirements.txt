@@ -1,0 +1,11 @@
+Pillow
+openai
+anthropic
+google-generativeai
+groq
+python-dotenv
+matplotlib
+pandas
+numpy
+requests
+seaborn

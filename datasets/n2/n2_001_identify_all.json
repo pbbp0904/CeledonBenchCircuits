@@ -1,0 +1,78 @@
+{
+    "test_case_id": "n2_001_identify_all",
+    "n_value": 2,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n2/images/n2_001_identify_all.png",
+    "expected_outcome": {
+        "n_value": 2,
+        "image_filename": "n2_001_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_356d077c-0d75-4337-8cd5-4600842ba6a3",
+                "type": "square",
+                "color": "red",
+                "size_parameter": 43,
+                "center_position": [
+                    159,
+                    737
+                ],
+                "bounding_box": [
+                    138,
+                    716,
+                    180,
+                    758
+                ]
+            },
+            {
+                "id": "shape_5a0b6c73-2af1-4573-9ab7-e1f4a9769d7a",
+                "type": "circle",
+                "color": "green",
+                "size_parameter": 78,
+                "center_position": [
+                    910,
+                    696
+                ],
+                "bounding_box": [
+                    871,
+                    657,
+                    949,
+                    735
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    104,
+                    643
+                ],
+                "bounding_box": [
+                    95.5,
+                    632.0,
+                    112.5,
+                    654.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    824,
+                    780
+                ],
+                "bounding_box": [
+                    815.5,
+                    769.0,
+                    832.5,
+                    791.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_356d077c-0d75-4337-8cd5-4600842ba6a3",
+            "2": "shape_5a0b6c73-2af1-4573-9ab7-e1f4a9769d7a"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}

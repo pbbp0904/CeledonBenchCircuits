@@ -1,0 +1,1518 @@
+{
+    "test_case_id": "n50_002_identify_all",
+    "n_value": 50,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n50/images/n50_002_identify_all.png",
+    "expected_outcome": {
+        "n_value": 50,
+        "image_filename": "n50_002_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_13a2c5bf-b4f6-46d7-922b-d7faeb0072d4",
+                "type": "star",
+                "color": "blue",
+                "size_parameter": 62,
+                "center_position": [
+                    366,
+                    300
+                ],
+                "bounding_box": [
+                    335,
+                    269,
+                    397,
+                    331
+                ]
+            },
+            {
+                "id": "shape_9bcfa2ad-9957-4b11-96ff-b070bd73dc8e",
+                "type": "rectangle",
+                "color": "teal",
+                "size_parameter": 62,
+                "center_position": [
+                    424,
+                    127
+                ],
+                "bounding_box": [
+                    393,
+                    104,
+                    455,
+                    150
+                ]
+            },
+            {
+                "id": "shape_d7880e0b-9428-4b9e-98d4-90ccf4f0797e",
+                "type": "pentagon",
+                "color": "magenta",
+                "size_parameter": 70,
+                "center_position": [
+                    794,
+                    736
+                ],
+                "bounding_box": [
+                    759,
+                    701,
+                    829,
+                    771
+                ]
+            },
+            {
+                "id": "shape_08b7dec3-b1e5-437d-a4e4-50d68d4e3eed",
+                "type": "triangle",
+                "color": "pink",
+                "size_parameter": 59,
+                "center_position": [
+                    626,
+                    810
+                ],
+                "bounding_box": [
+                    597,
+                    794,
+                    655,
+                    818
+                ]
+            },
+            {
+                "id": "shape_37d2873d-96c3-40fe-9367-129ed4766846",
+                "type": "square",
+                "color": "purple",
+                "size_parameter": 51,
+                "center_position": [
+                    126,
+                    475
+                ],
+                "bounding_box": [
+                    101,
+                    450,
+                    151,
+                    500
+                ]
+            },
+            {
+                "id": "shape_7a531958-b386-47aa-99c8-d4fee6a0b97c",
+                "type": "circle",
+                "color": "orange",
+                "size_parameter": 69,
+                "center_position": [
+                    366,
+                    866
+                ],
+                "bounding_box": [
+                    332,
+                    832,
+                    400,
+                    900
+                ]
+            },
+            {
+                "id": "shape_ef998476-5e0d-44e8-ae2e-6cac697a3393",
+                "type": "rectangle",
+                "color": "red",
+                "size_parameter": 67,
+                "center_position": [
+                    789,
+                    267
+                ],
+                "bounding_box": [
+                    756,
+                    219,
+                    822,
+                    315
+                ]
+            },
+            {
+                "id": "shape_5ed1a35b-1ede-415d-a4d7-3308458ca489",
+                "type": "square",
+                "color": "brown",
+                "size_parameter": 51,
+                "center_position": [
+                    274,
+                    537
+                ],
+                "bounding_box": [
+                    249,
+                    512,
+                    299,
+                    562
+                ]
+            },
+            {
+                "id": "shape_bbc0fd3e-a8cb-4f30-85d9-0eab27e1469d",
+                "type": "circle",
+                "color": "navy",
+                "size_parameter": 41,
+                "center_position": [
+                    546,
+                    225
+                ],
+                "bounding_box": [
+                    526,
+                    205,
+                    566,
+                    245
+                ]
+            },
+            {
+                "id": "shape_ca42fc35-6569-4f32-9835-6fa14a7b8769",
+                "type": "triangle",
+                "color": "yellow",
+                "size_parameter": 69,
+                "center_position": [
+                    114,
+                    309
+                ],
+                "bounding_box": [
+                    80,
+                    290,
+                    148,
+                    318
+                ]
+            },
+            {
+                "id": "shape_29315a13-d488-4704-b02e-f043c6bf5065",
+                "type": "square",
+                "color": "olive",
+                "size_parameter": 72,
+                "center_position": [
+                    841,
+                    409
+                ],
+                "bounding_box": [
+                    805,
+                    373,
+                    877,
+                    445
+                ]
+            },
+            {
+                "id": "shape_2a455374-5303-4c74-a3e9-ca42efa7badc",
+                "type": "pentagon",
+                "color": "maroon",
+                "size_parameter": 75,
+                "center_position": [
+                    894,
+                    149
+                ],
+                "bounding_box": [
+                    857,
+                    112,
+                    931,
+                    186
+                ]
+            },
+            {
+                "id": "shape_91827e06-e3d2-4490-b547-c588dddb2f80",
+                "type": "triangle",
+                "color": "cyan",
+                "size_parameter": 79,
+                "center_position": [
+                    185,
+                    652
+                ],
+                "bounding_box": [
+                    146,
+                    630,
+                    224,
+                    663
+                ]
+            },
+            {
+                "id": "shape_d79d3ae4-311f-4485-b757-d5126cfa3ce9",
+                "type": "rectangle",
+                "color": "green",
+                "size_parameter": 72,
+                "center_position": [
+                    601,
+                    440
+                ],
+                "bounding_box": [
+                    565,
+                    389,
+                    637,
+                    491
+                ]
+            },
+            {
+                "id": "shape_486ca998-158d-4c21-a90a-1832961483df",
+                "type": "square",
+                "color": "lime",
+                "size_parameter": 63,
+                "center_position": [
+                    162,
+                    774
+                ],
+                "bounding_box": [
+                    131,
+                    743,
+                    193,
+                    805
+                ]
+            },
+            {
+                "id": "shape_32bbda64-851d-4ec9-bb85-2163f110c645",
+                "type": "star",
+                "color": "olive",
+                "size_parameter": 43,
+                "center_position": [
+                    204,
+                    200
+                ],
+                "bounding_box": [
+                    183,
+                    179,
+                    225,
+                    221
+                ]
+            },
+            {
+                "id": "shape_707b3bad-3abb-4326-9469-d7a2c5a6afb0",
+                "type": "circle",
+                "color": "brown",
+                "size_parameter": 57,
+                "center_position": [
+                    626,
+                    309
+                ],
+                "bounding_box": [
+                    598,
+                    281,
+                    654,
+                    337
+                ]
+            },
+            {
+                "id": "shape_c49642b3-95a9-4079-91a5-878c8c3ae25d",
+                "type": "circle",
+                "color": "blue",
+                "size_parameter": 68,
+                "center_position": [
+                    159,
+                    915
+                ],
+                "bounding_box": [
+                    125,
+                    881,
+                    193,
+                    949
+                ]
+            },
+            {
+                "id": "shape_3988d72c-7098-4198-9534-a80bc24b6666",
+                "type": "triangle",
+                "color": "green",
+                "size_parameter": 79,
+                "center_position": [
+                    697,
+                    648
+                ],
+                "bounding_box": [
+                    658,
+                    626,
+                    736,
+                    659
+                ]
+            },
+            {
+                "id": "shape_1ab2fd81-55d6-4974-a1f7-f4bc830650d1",
+                "type": "circle",
+                "color": "blue",
+                "size_parameter": 77,
+                "center_position": [
+                    724,
+                    144
+                ],
+                "bounding_box": [
+                    686,
+                    106,
+                    762,
+                    182
+                ]
+            },
+            {
+                "id": "shape_baebba45-56f6-4dd5-a5c8-ab7d04d33011",
+                "type": "rectangle",
+                "color": "green",
+                "size_parameter": 44,
+                "center_position": [
+                    886,
+                    876
+                ],
+                "bounding_box": [
+                    859,
+                    854,
+                    913,
+                    898
+                ]
+            },
+            {
+                "id": "shape_c4a390ba-f447-4f56-9a48-6ff817d1d8d9",
+                "type": "pentagon",
+                "color": "pink",
+                "size_parameter": 72,
+                "center_position": [
+                    915,
+                    609
+                ],
+                "bounding_box": [
+                    879,
+                    573,
+                    951,
+                    645
+                ]
+            },
+            {
+                "id": "shape_766b5d47-d6d7-4494-a71e-4c7149e3faff",
+                "type": "triangle",
+                "color": "purple",
+                "size_parameter": 49,
+                "center_position": [
+                    229,
+                    80
+                ],
+                "bounding_box": [
+                    205,
+                    67,
+                    253,
+                    86
+                ]
+            },
+            {
+                "id": "shape_c659e46d-86be-4eab-915c-98dd2266bdec",
+                "type": "triangle",
+                "color": "red",
+                "size_parameter": 54,
+                "center_position": [
+                    483,
+                    525
+                ],
+                "bounding_box": [
+                    456,
+                    510,
+                    510,
+                    532
+                ]
+            },
+            {
+                "id": "shape_c17ed7d2-92d1-4c31-9748-7c65708c856c",
+                "type": "pentagon",
+                "color": "red",
+                "size_parameter": 59,
+                "center_position": [
+                    439,
+                    682
+                ],
+                "bounding_box": [
+                    410,
+                    653,
+                    468,
+                    711
+                ]
+            },
+            {
+                "id": "shape_23505201-23a8-431f-8eee-d16f5db62525",
+                "type": "square",
+                "color": "brown",
+                "size_parameter": 66,
+                "center_position": [
+                    482,
+                    327
+                ],
+                "bounding_box": [
+                    449,
+                    294,
+                    515,
+                    360
+                ]
+            },
+            {
+                "id": "shape_f22750f2-a1ce-4341-bdd0-9d6c3bc4e92e",
+                "type": "pentagon",
+                "color": "cyan",
+                "size_parameter": 64,
+                "center_position": [
+                    87,
+                    109
+                ],
+                "bounding_box": [
+                    55,
+                    77,
+                    119,
+                    141
+                ]
+            },
+            {
+                "id": "shape_9a79d8f7-f986-4c42-ada0-0af17ec32109",
+                "type": "rectangle",
+                "color": "lime",
+                "size_parameter": 41,
+                "center_position": [
+                    424,
+                    415
+                ],
+                "bounding_box": [
+                    397,
+                    395,
+                    451,
+                    435
+                ]
+            },
+            {
+                "id": "shape_c2764cfb-4803-4ec0-9a7d-8680de3ab90e",
+                "type": "square",
+                "color": "lime",
+                "size_parameter": 56,
+                "center_position": [
+                    229,
+                    414
+                ],
+                "bounding_box": [
+                    201,
+                    386,
+                    257,
+                    442
+                ]
+            },
+            {
+                "id": "shape_4281a3f3-c77a-418c-ab00-7a94a78e54aa",
+                "type": "triangle",
+                "color": "cyan",
+                "size_parameter": 72,
+                "center_position": [
+                    295,
+                    720
+                ],
+                "bounding_box": [
+                    259,
+                    700,
+                    331,
+                    730
+                ]
+            },
+            {
+                "id": "shape_49296a48-8b39-4221-940e-3bd4214575a8",
+                "type": "square",
+                "color": "green",
+                "size_parameter": 53,
+                "center_position": [
+                    920,
+                    297
+                ],
+                "bounding_box": [
+                    894,
+                    271,
+                    946,
+                    323
+                ]
+            },
+            {
+                "id": "shape_a0da04c8-fb00-4542-9df8-f9da1369eb86",
+                "type": "circle",
+                "color": "orange",
+                "size_parameter": 71,
+                "center_position": [
+                    937,
+                    749
+                ],
+                "bounding_box": [
+                    902,
+                    714,
+                    972,
+                    784
+                ]
+            },
+            {
+                "id": "shape_28694897-a5d4-4fa5-b642-56011492cfbd",
+                "type": "circle",
+                "color": "lime",
+                "size_parameter": 75,
+                "center_position": [
+                    740,
+                    909
+                ],
+                "bounding_box": [
+                    703,
+                    872,
+                    777,
+                    946
+                ]
+            },
+            {
+                "id": "shape_865f5534-ea19-4121-885a-289375e93fee",
+                "type": "star",
+                "color": "orange",
+                "size_parameter": 45,
+                "center_position": [
+                    77,
+                    587
+                ],
+                "bounding_box": [
+                    55,
+                    565,
+                    99,
+                    609
+                ]
+            },
+            {
+                "id": "shape_ef6e5703-a0a8-4c68-925d-7f0ea032177f",
+                "type": "square",
+                "color": "blue",
+                "size_parameter": 62,
+                "center_position": [
+                    556,
+                    649
+                ],
+                "bounding_box": [
+                    525,
+                    618,
+                    587,
+                    680
+                ]
+            },
+            {
+                "id": "shape_8df524fd-064c-4198-b938-d88afd978253",
+                "type": "rectangle",
+                "color": "maroon",
+                "size_parameter": 53,
+                "center_position": [
+                    602,
+                    96
+                ],
+                "bounding_box": [
+                    583,
+                    70,
+                    621,
+                    122
+                ]
+            },
+            {
+                "id": "shape_23e14b6d-e767-400b-b4ee-07ff17465c78",
+                "type": "star",
+                "color": "lime",
+                "size_parameter": 74,
+                "center_position": [
+                    507,
+                    899
+                ],
+                "bounding_box": [
+                    470,
+                    862,
+                    544,
+                    936
+                ]
+            },
+            {
+                "id": "shape_1a7c7958-c129-4fa4-bc0a-4136bcdc7b59",
+                "type": "triangle",
+                "color": "navy",
+                "size_parameter": 57,
+                "center_position": [
+                    378,
+                    559
+                ],
+                "bounding_box": [
+                    350,
+                    543,
+                    406,
+                    567
+                ]
+            },
+            {
+                "id": "shape_979273f7-91cb-40db-87b0-452866588888",
+                "type": "pentagon",
+                "color": "blue",
+                "size_parameter": 52,
+                "center_position": [
+                    275,
+                    937
+                ],
+                "bounding_box": [
+                    249,
+                    911,
+                    301,
+                    963
+                ]
+            },
+            {
+                "id": "shape_716a0747-b7a0-42f7-ab0b-99f42558ca8b",
+                "type": "square",
+                "color": "teal",
+                "size_parameter": 67,
+                "center_position": [
+                    801,
+                    554
+                ],
+                "bounding_box": [
+                    768,
+                    521,
+                    834,
+                    587
+                ]
+            },
+            {
+                "id": "shape_523ed010-2e20-4aef-b96c-df8b9e3309fc",
+                "type": "circle",
+                "color": "blue",
+                "size_parameter": 59,
+                "center_position": [
+                    515,
+                    778
+                ],
+                "bounding_box": [
+                    486,
+                    749,
+                    544,
+                    807
+                ]
+            },
+            {
+                "id": "shape_01e8ad21-2e00-4d54-b74b-3f15585dcb0c",
+                "type": "rectangle",
+                "color": "green",
+                "size_parameter": 50,
+                "center_position": [
+                    725,
+                    375
+                ],
+                "bounding_box": [
+                    713,
+                    350,
+                    737,
+                    400
+                ]
+            },
+            {
+                "id": "shape_8fb90ab7-2e1a-48d4-9db7-0a47beeefc4d",
+                "type": "pentagon",
+                "color": "olive",
+                "size_parameter": 68,
+                "center_position": [
+                    546,
+                    881
+                ],
+                "bounding_box": [
+                    512,
+                    847,
+                    580,
+                    915
+                ]
+            },
+            {
+                "id": "shape_14293545-0e16-489c-9845-2ebc16f19dcc",
+                "type": "rectangle",
+                "color": "teal",
+                "size_parameter": 40,
+                "center_position": [
+                    306,
+                    191
+                ],
+                "bounding_box": [
+                    282,
+                    171,
+                    330,
+                    211
+                ]
+            },
+            {
+                "id": "shape_60e6d9e1-cb9d-49bb-bea8-c99a2e0077cb",
+                "type": "pentagon",
+                "color": "teal",
+                "size_parameter": 79,
+                "center_position": [
+                    183,
+                    151
+                ],
+                "bounding_box": [
+                    144,
+                    112,
+                    222,
+                    190
+                ]
+            },
+            {
+                "id": "shape_f246a106-3a04-45c0-88ed-5f60b223429a",
+                "type": "triangle",
+                "color": "maroon",
+                "size_parameter": 72,
+                "center_position": [
+                    656,
+                    744
+                ],
+                "bounding_box": [
+                    620,
+                    724,
+                    692,
+                    754
+                ]
+            },
+            {
+                "id": "shape_2d774e0d-abf4-4d60-8b12-a828203e9da0",
+                "type": "star",
+                "color": "teal",
+                "size_parameter": 64,
+                "center_position": [
+                    851,
+                    527
+                ],
+                "bounding_box": [
+                    819,
+                    495,
+                    883,
+                    559
+                ]
+            },
+            {
+                "id": "shape_47deb2a6-36aa-4f8a-a662-d591c94dfb39",
+                "type": "square",
+                "color": "olive",
+                "size_parameter": 43,
+                "center_position": [
+                    267,
+                    826
+                ],
+                "bounding_box": [
+                    246,
+                    805,
+                    288,
+                    847
+                ]
+            },
+            {
+                "id": "shape_3f08be1d-7b2d-498e-9a41-4f254537003b",
+                "type": "rectangle",
+                "color": "purple",
+                "size_parameter": 79,
+                "center_position": [
+                    449,
+                    895
+                ],
+                "bounding_box": [
+                    410,
+                    845,
+                    488,
+                    945
+                ]
+            },
+            {
+                "id": "shape_9c293c9c-8b67-4c52-8fc1-cc3b6a73129a",
+                "type": "rectangle",
+                "color": "purple",
+                "size_parameter": 61,
+                "center_position": [
+                    362,
+                    888
+                ],
+                "bounding_box": [
+                    332,
+                    849,
+                    392,
+                    927
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    947,
+                    382
+                ],
+                "bounding_box": [
+                    938.5,
+                    371.0,
+                    955.5,
+                    393.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    614,
+                    954
+                ],
+                "bounding_box": [
+                    605.5,
+                    943.0,
+                    622.5,
+                    965.0
+                ]
+            },
+            {
+                "value": 3,
+                "center_position": [
+                    237,
+                    285
+                ],
+                "bounding_box": [
+                    228.5,
+                    274.0,
+                    245.5,
+                    296.0
+                ]
+            },
+            {
+                "value": 4,
+                "center_position": [
+                    66,
+                    868
+                ],
+                "bounding_box": [
+                    57.5,
+                    857.0,
+                    74.5,
+                    879.0
+                ]
+            },
+            {
+                "value": 5,
+                "center_position": [
+                    707,
+                    486
+                ],
+                "bounding_box": [
+                    698.5,
+                    475.0,
+                    715.5,
+                    497.0
+                ]
+            },
+            {
+                "value": 6,
+                "center_position": [
+                    638,
+                    549
+                ],
+                "bounding_box": [
+                    629.5,
+                    538.0,
+                    646.5,
+                    560.0
+                ]
+            },
+            {
+                "value": 7,
+                "center_position": [
+                    833,
+                    951
+                ],
+                "bounding_box": [
+                    824.5,
+                    940.0,
+                    841.5,
+                    962.0
+                ]
+            },
+            {
+                "value": 8,
+                "center_position": [
+                    78,
+                    720
+                ],
+                "bounding_box": [
+                    69.5,
+                    709.0,
+                    86.5,
+                    731.0
+                ]
+            },
+            {
+                "value": 9,
+                "center_position": [
+                    807,
+                    65
+                ],
+                "bounding_box": [
+                    798.5,
+                    54.0,
+                    815.5,
+                    76.0
+                ]
+            },
+            {
+                "value": 10,
+                "center_position": [
+                    335,
+                    68
+                ],
+                "bounding_box": [
+                    318.0,
+                    57.0,
+                    352.0,
+                    79.0
+                ]
+            },
+            {
+                "value": 11,
+                "center_position": [
+                    412,
+                    336
+                ],
+                "bounding_box": [
+                    395.0,
+                    325.0,
+                    429.0,
+                    347.0
+                ]
+            },
+            {
+                "value": 12,
+                "center_position": [
+                    953,
+                    473
+                ],
+                "bounding_box": [
+                    936.0,
+                    462.0,
+                    970.0,
+                    484.0
+                ]
+            },
+            {
+                "value": 13,
+                "center_position": [
+                    333,
+                    459
+                ],
+                "bounding_box": [
+                    316.0,
+                    448.0,
+                    350.0,
+                    470.0
+                ]
+            },
+            {
+                "value": 14,
+                "center_position": [
+                    661,
+                    599
+                ],
+                "bounding_box": [
+                    644.0,
+                    588.0,
+                    678.0,
+                    610.0
+                ]
+            },
+            {
+                "value": 15,
+                "center_position": [
+                    674,
+                    942
+                ],
+                "bounding_box": [
+                    657.0,
+                    931.0,
+                    691.0,
+                    953.0
+                ]
+            },
+            {
+                "value": 16,
+                "center_position": [
+                    339,
+                    256
+                ],
+                "bounding_box": [
+                    322.0,
+                    245.0,
+                    356.0,
+                    267.0
+                ]
+            },
+            {
+                "value": 17,
+                "center_position": [
+                    768,
+                    281
+                ],
+                "bounding_box": [
+                    751.0,
+                    270.0,
+                    785.0,
+                    292.0
+                ]
+            },
+            {
+                "value": 18,
+                "center_position": [
+                    892,
+                    754
+                ],
+                "bounding_box": [
+                    875.0,
+                    743.0,
+                    909.0,
+                    765.0
+                ]
+            },
+            {
+                "value": 19,
+                "center_position": [
+                    80,
+                    664
+                ],
+                "bounding_box": [
+                    63.0,
+                    653.0,
+                    97.0,
+                    675.0
+                ]
+            },
+            {
+                "value": 20,
+                "center_position": [
+                    818,
+                    541
+                ],
+                "bounding_box": [
+                    801.0,
+                    530.0,
+                    835.0,
+                    552.0
+                ]
+            },
+            {
+                "value": 21,
+                "center_position": [
+                    70,
+                    190
+                ],
+                "bounding_box": [
+                    53.0,
+                    179.0,
+                    87.0,
+                    201.0
+                ]
+            },
+            {
+                "value": 22,
+                "center_position": [
+                    344,
+                    905
+                ],
+                "bounding_box": [
+                    327.0,
+                    894.0,
+                    361.0,
+                    916.0
+                ]
+            },
+            {
+                "value": 23,
+                "center_position": [
+                    299,
+                    419
+                ],
+                "bounding_box": [
+                    282.0,
+                    408.0,
+                    316.0,
+                    430.0
+                ]
+            },
+            {
+                "value": 24,
+                "center_position": [
+                    268,
+                    481
+                ],
+                "bounding_box": [
+                    251.0,
+                    470.0,
+                    285.0,
+                    492.0
+                ]
+            },
+            {
+                "value": 25,
+                "center_position": [
+                    430,
+                    75
+                ],
+                "bounding_box": [
+                    413.0,
+                    64.0,
+                    447.0,
+                    86.0
+                ]
+            },
+            {
+                "value": 26,
+                "center_position": [
+                    642,
+                    215
+                ],
+                "bounding_box": [
+                    625.0,
+                    204.0,
+                    659.0,
+                    226.0
+                ]
+            },
+            {
+                "value": 27,
+                "center_position": [
+                    940,
+                    956
+                ],
+                "bounding_box": [
+                    923.0,
+                    945.0,
+                    957.0,
+                    967.0
+                ]
+            },
+            {
+                "value": 28,
+                "center_position": [
+                    549,
+                    250
+                ],
+                "bounding_box": [
+                    532.0,
+                    239.0,
+                    566.0,
+                    261.0
+                ]
+            },
+            {
+                "value": 29,
+                "center_position": [
+                    916,
+                    333
+                ],
+                "bounding_box": [
+                    899.0,
+                    322.0,
+                    933.0,
+                    344.0
+                ]
+            },
+            {
+                "value": 30,
+                "center_position": [
+                    762,
+                    947
+                ],
+                "bounding_box": [
+                    745.0,
+                    936.0,
+                    779.0,
+                    958.0
+                ]
+            },
+            {
+                "value": 31,
+                "center_position": [
+                    251,
+                    207
+                ],
+                "bounding_box": [
+                    234.0,
+                    196.0,
+                    268.0,
+                    218.0
+                ]
+            },
+            {
+                "value": 32,
+                "center_position": [
+                    509,
+                    654
+                ],
+                "bounding_box": [
+                    492.0,
+                    643.0,
+                    526.0,
+                    665.0
+                ]
+            },
+            {
+                "value": 33,
+                "center_position": [
+                    308,
+                    465
+                ],
+                "bounding_box": [
+                    291.0,
+                    454.0,
+                    325.0,
+                    476.0
+                ]
+            },
+            {
+                "value": 34,
+                "center_position": [
+                    634,
+                    530
+                ],
+                "bounding_box": [
+                    617.0,
+                    519.0,
+                    651.0,
+                    541.0
+                ]
+            },
+            {
+                "value": 35,
+                "center_position": [
+                    947,
+                    296
+                ],
+                "bounding_box": [
+                    930.0,
+                    285.0,
+                    964.0,
+                    307.0
+                ]
+            },
+            {
+                "value": 36,
+                "center_position": [
+                    440,
+                    235
+                ],
+                "bounding_box": [
+                    423.0,
+                    224.0,
+                    457.0,
+                    246.0
+                ]
+            },
+            {
+                "value": 37,
+                "center_position": [
+                    927,
+                    845
+                ],
+                "bounding_box": [
+                    910.0,
+                    834.0,
+                    944.0,
+                    856.0
+                ]
+            },
+            {
+                "value": 38,
+                "center_position": [
+                    942,
+                    328
+                ],
+                "bounding_box": [
+                    925.0,
+                    317.0,
+                    959.0,
+                    339.0
+                ]
+            },
+            {
+                "value": 39,
+                "center_position": [
+                    132,
+                    135
+                ],
+                "bounding_box": [
+                    115.0,
+                    124.0,
+                    149.0,
+                    146.0
+                ]
+            },
+            {
+                "value": 40,
+                "center_position": [
+                    522,
+                    797
+                ],
+                "bounding_box": [
+                    505.0,
+                    786.0,
+                    539.0,
+                    808.0
+                ]
+            },
+            {
+                "value": 41,
+                "center_position": [
+                    561,
+                    532
+                ],
+                "bounding_box": [
+                    544.0,
+                    521.0,
+                    578.0,
+                    543.0
+                ]
+            },
+            {
+                "value": 42,
+                "center_position": [
+                    375,
+                    493
+                ],
+                "bounding_box": [
+                    358.0,
+                    482.0,
+                    392.0,
+                    504.0
+                ]
+            },
+            {
+                "value": 43,
+                "center_position": [
+                    499,
+                    665
+                ],
+                "bounding_box": [
+                    482.0,
+                    654.0,
+                    516.0,
+                    676.0
+                ]
+            },
+            {
+                "value": 44,
+                "center_position": [
+                    461,
+                    561
+                ],
+                "bounding_box": [
+                    444.0,
+                    550.0,
+                    478.0,
+                    572.0
+                ]
+            },
+            {
+                "value": 45,
+                "center_position": [
+                    185,
+                    811
+                ],
+                "bounding_box": [
+                    168.0,
+                    800.0,
+                    202.0,
+                    822.0
+                ]
+            },
+            {
+                "value": 46,
+                "center_position": [
+                    772,
+                    844
+                ],
+                "bounding_box": [
+                    755.0,
+                    833.0,
+                    789.0,
+                    855.0
+                ]
+            },
+            {
+                "value": 47,
+                "center_position": [
+                    692,
+                    436
+                ],
+                "bounding_box": [
+                    675.0,
+                    425.0,
+                    709.0,
+                    447.0
+                ]
+            },
+            {
+                "value": 48,
+                "center_position": [
+                    812,
+                    612
+                ],
+                "bounding_box": [
+                    795.0,
+                    601.0,
+                    829.0,
+                    623.0
+                ]
+            },
+            {
+                "value": 49,
+                "center_position": [
+                    619,
+                    890
+                ],
+                "bounding_box": [
+                    602.0,
+                    879.0,
+                    636.0,
+                    901.0
+                ]
+            },
+            {
+                "value": 50,
+                "center_position": [
+                    423,
+                    521
+                ],
+                "bounding_box": [
+                    406.0,
+                    510.0,
+                    440.0,
+                    532.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_13a2c5bf-b4f6-46d7-922b-d7faeb0072d4",
+            "2": "shape_9bcfa2ad-9957-4b11-96ff-b070bd73dc8e",
+            "3": "shape_d7880e0b-9428-4b9e-98d4-90ccf4f0797e",
+            "4": "shape_08b7dec3-b1e5-437d-a4e4-50d68d4e3eed",
+            "5": "shape_37d2873d-96c3-40fe-9367-129ed4766846",
+            "6": "shape_7a531958-b386-47aa-99c8-d4fee6a0b97c",
+            "7": "shape_ef998476-5e0d-44e8-ae2e-6cac697a3393",
+            "8": "shape_5ed1a35b-1ede-415d-a4d7-3308458ca489",
+            "9": "shape_bbc0fd3e-a8cb-4f30-85d9-0eab27e1469d",
+            "10": "shape_ca42fc35-6569-4f32-9835-6fa14a7b8769",
+            "11": "shape_29315a13-d488-4704-b02e-f043c6bf5065",
+            "12": "shape_2a455374-5303-4c74-a3e9-ca42efa7badc",
+            "13": "shape_91827e06-e3d2-4490-b547-c588dddb2f80",
+            "14": "shape_d79d3ae4-311f-4485-b757-d5126cfa3ce9",
+            "15": "shape_486ca998-158d-4c21-a90a-1832961483df",
+            "16": "shape_32bbda64-851d-4ec9-bb85-2163f110c645",
+            "17": "shape_707b3bad-3abb-4326-9469-d7a2c5a6afb0",
+            "18": "shape_c49642b3-95a9-4079-91a5-878c8c3ae25d",
+            "19": "shape_3988d72c-7098-4198-9534-a80bc24b6666",
+            "20": "shape_1ab2fd81-55d6-4974-a1f7-f4bc830650d1",
+            "21": "shape_baebba45-56f6-4dd5-a5c8-ab7d04d33011",
+            "22": "shape_c4a390ba-f447-4f56-9a48-6ff817d1d8d9",
+            "23": "shape_766b5d47-d6d7-4494-a71e-4c7149e3faff",
+            "24": "shape_c659e46d-86be-4eab-915c-98dd2266bdec",
+            "25": "shape_c17ed7d2-92d1-4c31-9748-7c65708c856c",
+            "26": "shape_23505201-23a8-431f-8eee-d16f5db62525",
+            "27": "shape_f22750f2-a1ce-4341-bdd0-9d6c3bc4e92e",
+            "28": "shape_9a79d8f7-f986-4c42-ada0-0af17ec32109",
+            "29": "shape_c2764cfb-4803-4ec0-9a7d-8680de3ab90e",
+            "30": "shape_4281a3f3-c77a-418c-ab00-7a94a78e54aa",
+            "31": "shape_49296a48-8b39-4221-940e-3bd4214575a8",
+            "32": "shape_a0da04c8-fb00-4542-9df8-f9da1369eb86",
+            "33": "shape_28694897-a5d4-4fa5-b642-56011492cfbd",
+            "34": "shape_865f5534-ea19-4121-885a-289375e93fee",
+            "35": "shape_ef6e5703-a0a8-4c68-925d-7f0ea032177f",
+            "36": "shape_8df524fd-064c-4198-b938-d88afd978253",
+            "37": "shape_23e14b6d-e767-400b-b4ee-07ff17465c78",
+            "38": "shape_1a7c7958-c129-4fa4-bc0a-4136bcdc7b59",
+            "39": "shape_979273f7-91cb-40db-87b0-452866588888",
+            "40": "shape_716a0747-b7a0-42f7-ab0b-99f42558ca8b",
+            "41": "shape_523ed010-2e20-4aef-b96c-df8b9e3309fc",
+            "42": "shape_01e8ad21-2e00-4d54-b74b-3f15585dcb0c",
+            "43": "shape_8fb90ab7-2e1a-48d4-9db7-0a47beeefc4d",
+            "44": "shape_14293545-0e16-489c-9845-2ebc16f19dcc",
+            "45": "shape_60e6d9e1-cb9d-49bb-bea8-c99a2e0077cb",
+            "46": "shape_f246a106-3a04-45c0-88ed-5f60b223429a",
+            "47": "shape_2d774e0d-abf4-4d60-8b12-a828203e9da0",
+            "48": "shape_47deb2a6-36aa-4f8a-a662-d591c94dfb39",
+            "49": "shape_3f08be1d-7b2d-498e-9a41-4f254537003b",
+            "50": "shape_9c293c9c-8b67-4c52-8fc1-cc3b6a73129a"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}

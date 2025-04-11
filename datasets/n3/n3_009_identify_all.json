@@ -1,0 +1,108 @@
+{
+    "test_case_id": "n3_009_identify_all",
+    "n_value": 3,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n3/images/n3_009_identify_all.png",
+    "expected_outcome": {
+        "n_value": 3,
+        "image_filename": "n3_009_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_56387eca-6a3e-4946-9439-c9d0492b2db9",
+                "type": "circle",
+                "color": "green",
+                "size_parameter": 65,
+                "center_position": [
+                    864,
+                    374
+                ],
+                "bounding_box": [
+                    832,
+                    342,
+                    896,
+                    406
+                ]
+            },
+            {
+                "id": "shape_a6083422-3d14-4f81-8f71-5baadb3616d2",
+                "type": "triangle",
+                "color": "red",
+                "size_parameter": 68,
+                "center_position": [
+                    795,
+                    135
+                ],
+                "bounding_box": [
+                    761,
+                    116,
+                    829,
+                    144
+                ]
+            },
+            {
+                "id": "shape_ccb52a04-f8f3-498a-9cdd-9d34b9ad91df",
+                "type": "square",
+                "color": "blue",
+                "size_parameter": 57,
+                "center_position": [
+                    227,
+                    383
+                ],
+                "bounding_box": [
+                    199,
+                    355,
+                    255,
+                    411
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    85,
+                    760
+                ],
+                "bounding_box": [
+                    76.5,
+                    749.0,
+                    93.5,
+                    771.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    939,
+                    69
+                ],
+                "bounding_box": [
+                    930.5,
+                    58.0,
+                    947.5,
+                    80.0
+                ]
+            },
+            {
+                "value": 3,
+                "center_position": [
+                    561,
+                    717
+                ],
+                "bounding_box": [
+                    552.5,
+                    706.0,
+                    569.5,
+                    728.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_56387eca-6a3e-4946-9439-c9d0492b2db9",
+            "2": "shape_a6083422-3d14-4f81-8f71-5baadb3616d2",
+            "3": "shape_ccb52a04-f8f3-498a-9cdd-9d34b9ad91df"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}

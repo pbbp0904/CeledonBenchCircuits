@@ -1,0 +1,138 @@
+{
+    "test_case_id": "n4_002_identify_all",
+    "n_value": 4,
+    "task_type": "identify_all",
+    "instruction": "Analyze the provided image. For each numbered element, identify the shape it points to, its color, and its type. Return the result as a structured JSON object mapping each number (as a string key) to an object containing 'shape_type' and 'color'.",
+    "image_path": "n4/images/n4_002_identify_all.png",
+    "expected_outcome": {
+        "n_value": 4,
+        "image_filename": "n4_002_identify_all.png",
+        "shapes": [
+            {
+                "id": "shape_ce38872b-42e3-4b3d-90b7-16821cb507ae",
+                "type": "triangle",
+                "color": "green",
+                "size_parameter": 44,
+                "center_position": [
+                    815,
+                    362
+                ],
+                "bounding_box": [
+                    793,
+                    350,
+                    837,
+                    368
+                ]
+            },
+            {
+                "id": "shape_033bcc63-1aa6-44a8-b2af-7e795a18d6fd",
+                "type": "circle",
+                "color": "blue",
+                "size_parameter": 78,
+                "center_position": [
+                    582,
+                    865
+                ],
+                "bounding_box": [
+                    543,
+                    826,
+                    621,
+                    904
+                ]
+            },
+            {
+                "id": "shape_3ec641fd-b1d8-4b7b-b91b-dfd3e9247cf5",
+                "type": "square",
+                "color": "yellow",
+                "size_parameter": 42,
+                "center_position": [
+                    620,
+                    369
+                ],
+                "bounding_box": [
+                    599,
+                    348,
+                    641,
+                    390
+                ]
+            },
+            {
+                "id": "shape_5848500b-6c05-42c7-a8b5-58a6fd44dbee",
+                "type": "rectangle",
+                "color": "red",
+                "size_parameter": 49,
+                "center_position": [
+                    375,
+                    841
+                ],
+                "bounding_box": [
+                    343,
+                    817,
+                    407,
+                    865
+                ]
+            }
+        ],
+        "numbers": [
+            {
+                "value": 1,
+                "center_position": [
+                    627,
+                    713
+                ],
+                "bounding_box": [
+                    618.5,
+                    702.0,
+                    635.5,
+                    724.0
+                ]
+            },
+            {
+                "value": 2,
+                "center_position": [
+                    171,
+                    318
+                ],
+                "bounding_box": [
+                    162.5,
+                    307.0,
+                    179.5,
+                    329.0
+                ]
+            },
+            {
+                "value": 3,
+                "center_position": [
+                    81,
+                    934
+                ],
+                "bounding_box": [
+                    72.5,
+                    923.0,
+                    89.5,
+                    945.0
+                ]
+            },
+            {
+                "value": 4,
+                "center_position": [
+                    149,
+                    513
+                ],
+                "bounding_box": [
+                    140.5,
+                    502.0,
+                    157.5,
+                    524.0
+                ]
+            }
+        ],
+        "connections": {
+            "1": "shape_ce38872b-42e3-4b3d-90b7-16821cb507ae",
+            "2": "shape_033bcc63-1aa6-44a8-b2af-7e795a18d6fd",
+            "3": "shape_3ec641fd-b1d8-4b7b-b91b-dfd3e9247cf5",
+            "4": "shape_5848500b-6c05-42c7-a8b5-58a6fd44dbee"
+        }
+    },
+    "evaluation_method": "detailed_comparison"
+}
