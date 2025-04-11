@@ -162,3 +162,15 @@ The benchmark workflow involves generating the dataset, running models against i
 *   **Adding Task Types:** Define new task types, corresponding instructions in `src/generation/dataset_generator.py`, implement new comparison logic in `src/evaluation/metrics.py`, potentially add new evaluation methods, and update `src/execution/prompt_utils.py` if needed.
 *   **Changing Generation Parameters:** Modify constants in `src/generation/image_generator.py` (e.g., `IMG_SIZE`, `MIN_DISTANCE`, `SHAPE_TYPES`, `COLORS`, arrow parameters).
 *   **Adding Models:** Add model details to `PROVIDERS_MODELS` in `run_multiple_benchmarks.py` and assign colors in `MODEL_PALETTE` in `src/analysis/plotter.py`.
+
+## Results
+
+Below are examples of the analysis outputs from running the benchmark:
+
+### Sub-Item Correctness Rate by Test Case and Model
+
+![Correctness Rate Heatmap](analysis_plots/correctness_rate_heatmap_by_model.png)
+
+### Overall Pass Rate by Model and N Value
+
+![Summary Pass Rate Table](analysis_plots/summary_pass_rate_table.png)
