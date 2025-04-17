@@ -9,7 +9,7 @@ import argparse
 # Define the models, providers, and N values to test.
 CONFIGURATIONS = []
 PROVIDERS_MODELS = {
-    "OpenAI": ["gpt-4o-mini-2024-07-18", "gpt-4o", "o1"],
+    "OpenAI": ["gpt-4.1", "gpt-4.1-mini", "gpt-4.1-nano", "o4-mini"],
     "Anthropic": ["claude-3-5-haiku-20241022", "claude-3-5-sonnet-20240620", "claude-3-7-sonnet-20250219"],
     "Google": ["gemini-2.0-flash-lite", "gemini-2.0-flash", "gemini-2.5-pro-preview-03-25"]
 }
@@ -28,7 +28,7 @@ PYTHON_EXECUTABLE = sys.executable
 ENGINE_MODULE_PATH = "src.execution.engine" # Make sure this is the correct module path
 # Adjust max workers based on your system and API rate limits
 # Running too many vision models concurrently can be resource-intensive
-MAX_WORKERS = min(os.cpu_count(), 4)
+MAX_WORKERS = min(os.cpu_count(), 5)
 
 # --- Function to Run Single Configuration --- 
 def run_single_configuration(config, index, total, test_case_id=None):

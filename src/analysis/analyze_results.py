@@ -1,7 +1,6 @@
 import os
 import glob
 import argparse
-import pandas as pd
 
 # Import necessary functions from the dedicated plotter script
 from src.analysis.plotter import load_and_prepare_data, create_n_value_grouped_plot, create_model_grouped_plot, load_detailed_evaluation_data, create_pass_fail_heatmap, create_summary_pass_rate_table, create_pair_correctness_table, create_pair_correctness_heatmap, create_subitem_correctness_table, MODEL_PLOT_ORDER

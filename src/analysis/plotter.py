@@ -21,12 +21,16 @@ MODEL_PALETTE = {
     'gemini-2.5-pro-preview-03-25': '#8fbc8f', # Dark Sea Green
 
     # OpenAI Models (Blues)
-    'gpt-4o-mini-2024-07-18': '#aec7e8',        # Light Blue
-    'gpt-4o': '#1f77b4',                     # Blue
-    'o1': '#72bcd4',                         # Medium Blue/Cyan
+    'gpt-4o-mini-2024-07-18': '#eeeee8',          # Light Blue
+    'gpt-4o': '#cccce4',                          # Blue
+    'o1': '#bbbbdd',                              # Very Light Blue
+    'gpt-4.1-nano': '#aec7e8',                    # Light Blue
+    'gpt-4.1-mini': '#1f77b4',                    # Blue
+    'gpt-4.1': '#72bcd4',                         # Medium Blue/Cyan
+    'o4-mini': '#222280',                         # Darker Blue
     
     # Anthropic Models (Oranges/Reds)
-    'claude-3-5-haiku-20241022': '#ffbb78',      # Light Orange
+    'claude-3-5-haiku-20241022': '#ffbb78',       # Light Orange
     'claude-3-5-sonnet-20240620': '#ff7f0e',      # Orange
     'claude-3-7-sonnet-20250219': '#d62728',      # Red 
 }
@@ -42,6 +46,10 @@ MODEL_PLOT_ORDER = [
     'gpt-4o-mini-2024-07-18',
     'gpt-4o',
     'o1',
+    'gpt-4.1-nano',
+    'gpt-4.1-mini',
+    'gpt-4.1',
+    'o4-mini',
     # Anthropic
     'claude-3-5-haiku-20241022',
     'claude-3-5-sonnet-20240620',

@@ -139,11 +139,12 @@ class OpenAIWrapper(LLMWrapper):
         messages.append({"role": "user", "content": user_content})
 
         try:
-            if "o1" in self.model_name:
+            if "o1" in self.model_name or "o3" in self.model_name or "o4" in self.model_name:
                 api_args = {
                     "model": self.model_name,
                     "messages": messages,
-                    "max_completion_tokens": 4096, # Increased max tokens for potentially detailed JSON
+                    "max_completion_tokens": 64000, # Increased max tokens for reasoning and potentially detailed JSON
+                    "reasoning_effort": "high",
                 }
             else:
                 api_args = {
@@ -153,9 +154,8 @@ class OpenAIWrapper(LLMWrapper):
                     "temperature": 0, # Keep deterministic for benchmarks
                 }
             # GPT-4o models might expect JSON object format slightly differently or have other params
-            if "o" in self.model_name or "vision" in self.model_name:
-                 api_args["response_format"] = {"type": "json_object"}
-                 print(f"Task {task_id}: Using json_object response format.")
+            api_args["response_format"] = {"type": "json_object"}
+            print(f"Task {task_id}: Using json_object response format.")
 
             response = await self.async_client.chat.completions.create(**api_args)
             raw_output = response.choices[0].message.content
@@ -265,12 +265,6 @@ class GoogleWrapper(LLMWrapper):
             # Potentially force JSON output if model supports it
             response_mime_type="application/json" 
         )
-        safety_settings = { # Be less strict for benchmark data
-            # genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-            # genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH: genai.types.HarmBlockThreshold.BLOCK_NONE,
-            # genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-            # genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-        } 
         
         try:
             response = await self.client.generate_content_async(
